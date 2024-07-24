@@ -98,7 +98,35 @@ public class Au37Train {
 
         System.out.printf("O valor é de %.2f", valorTotal);
 
+        System.out.println();
 
+        System.out.println("Leitor de intervalor");
+
+        double numMargem;
+        int intervalo1 = 0;
+        int intervalo2 = 25;
+        int intervalo3 = 50;
+        int intervalo4 = 75;
+        int intervalo5 = 100;
+
+        System.out.println("Digite o número de entrada");
+        numMargem = input.nextDouble();
+
+        if (numMargem >= intervalo1 && numMargem < intervalo2) {
+            System.out.println("Intervalo 0 - 25");
+        }
+        else if (numMargem >= intervalo2 && numMargem < intervalo3) {
+            System.out.println("Intervalo 25 - 50");
+        }
+        else if (numMargem >= intervalo3 && numMargem < intervalo4) {
+            System.out.println("Intervalo 50 - 75");
+        }
+        else if (numMargem >= intervalo4 && numMargem < intervalo5) {
+            System.out.println("Intervalo 75 - 100");
+        }
+        else {
+            System.out.println("Fora do intervalo");
+        }
 
 
 
