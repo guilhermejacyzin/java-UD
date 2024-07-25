@@ -18,12 +18,14 @@ public class Au49TrainB {
         while (combustivel != 4) {
             if (combustivel == 1) {
                 alcool += 1;
+            } else if (combustivel == 2) {
+                gasolina += 1;
+            } else if (combustivel == 3) {
+                diesel += 1;
             }
-            else {
-                System.out.println("Fim");
-            }
-        }
 
+            combustivel = input.nextInt();
+        }
         System.out.println("Muito obrigado!");
         System.out.println("Álcool: " + alcool);
         System.out.println("Gasolina: " + gasolina);
@@ -31,5 +33,9 @@ public class Au49TrainB {
 
 
         input.close();
-    }
+        }
+
+
 }
+
+
