@@ -5,8 +5,15 @@ import java.util.Scanner;
 
 public class Au64ProblemaNoOrientacaoObjetos {
     public static void main(String[] args) {
+
+        /*
+        Solução sem orientação a objetos
+         */
+
+
         Scanner input = new Scanner(System.in);
         Locale.setDefault(Locale.US);
+
 
         double xA, xB, xC;
         double yA, yB, yC;
