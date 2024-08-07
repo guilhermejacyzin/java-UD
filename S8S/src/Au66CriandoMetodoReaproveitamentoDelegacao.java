@@ -9,6 +9,8 @@ public class Au66CriandoMetodoReaproveitamentoDelegacao {
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
 
+        // Com criação do método para simplificação
+
         //  Chamando a classe
         Au66Triangle x, y;
 
