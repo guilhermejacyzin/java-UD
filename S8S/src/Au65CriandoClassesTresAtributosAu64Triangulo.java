@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Au65CriandoClassesTresAtributosAu64Triangulo {
     public static void main(String[] args) {
                 /*
-        Solução com orientação a objetos
+        Exemplo de Solução com orientação a objetos
          */
 
 
