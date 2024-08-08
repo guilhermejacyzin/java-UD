@@ -3,7 +3,7 @@ import entities67.Au67Product;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Au67ProgramaEstoque {
+public class Au67ProgramaEstoqueB {
 
     public static void main(String[] args) {
 
