@@ -7,6 +7,8 @@ public class Au67ProgramaEstoque {
 
     public static void main(String[] args) {
 
+        //  Programa para estoque exemplo
+
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
 
