@@ -21,23 +21,26 @@ public class Au67ProgramaEstoque {
         System.out.print("Digite o quantidade do produto: ");
         product.quantidade = input.nextInt();
 
-        System.out.println(product.toString());
+        System.out.println("Dados do produto: " + product.toString());
+
+        System.out.println();
+
+        System.out.print("Digite o número de produtos adicionados no estoque: ");
+        int quantidade = input.nextInt();
+        product.addProducts(quantidade);
+
+        System.out.println();
+
+        System.out.println("Dados do produto atualizados: " + product.toString());
+        System.out.println();
+
+        System.out.print("Digite o número de produtos que quer remover: ");
+        quantidade = input.nextInt();
+        product.removeProducts(quantidade);
 
 
-//        System.out.printf("Dados do produto: %s, R$ %.2f, %d unidades, Total: ", product.produto, product.preco, product.quantidade);
-//
-//        System.out.println();
-//
-//        System.out.print("Digite o número de produtos adicionados no estoque: ");
-//
-//        System.out.println();
-
-//        System.out.println("Dados do produto atualizados: %s, R$ %.2f, %d unidades, Total: ", produto, preco, quantidade);
-
-//        System.out.print("Digite o número de produtos que quer remover: ");
-
-//        System.out.println("Dados do produto atualizados: %s, R$ %.2f, %d unidades, Total: ", produto, preco, quantidade);
-
+        System.out.println();
+        System.out.println("Dados do produto atualizados: " + product.toString());
 
 
         input.close();
