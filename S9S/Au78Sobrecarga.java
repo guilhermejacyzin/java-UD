@@ -1,11 +1,12 @@
 package S9S;
 
-import S9S.entities76.Au76Product;
+import S9S.entities78.Au78Product;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Au76Construtores {
+public class Au78Sobrecarga {
+
     public static void main(String[] args) {
 
     /*
@@ -19,6 +20,7 @@ public class Au76Construtores {
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
 
+        Au78Product p = new Au78Product();
 
         System.out.print("Digite o nome do produto: ");
         var produto = input.nextLine();
@@ -26,10 +28,10 @@ public class Au76Construtores {
         System.out.print("Digite o preço do produto: ");
         var preco = input.nextDouble();
 
-        System.out.print("Digite o quantidade do produto: ");
-        var quantidade = input.nextInt();
+//        System.out.print("Digite o quantidade do produto: ");
+//        var quantidade = input.nextInt();
 
-        Au76Product product = new Au76Product(produto, preco, quantidade);
+        Au78Product product = new Au78Product(produto, preco);
 
 
         System.out.println("Dados do produto: " + product.toString());
@@ -37,7 +39,7 @@ public class Au76Construtores {
         System.out.println();
 
         System.out.print("Digite o número de produtos adicionados no estoque: ");
-        quantidade = input.nextInt();
+        var quantidade = input.nextInt();
         product.addProducts(quantidade);
 
         System.out.println();
@@ -54,6 +56,10 @@ public class Au76Construtores {
         System.out.println("Dados do produto atualizados: " + product.toString());
 
         input.close();
-    }
 
+
+        /*
+        Sobrecarga é disponibilizar mais de uma versão da mesma operação
+         */
+    }
 }
