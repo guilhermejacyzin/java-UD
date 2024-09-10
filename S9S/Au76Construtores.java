@@ -15,25 +15,18 @@ public class Au76Construtores {
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
 
-//        Au76Product product = new Au76Product();
 
         System.out.print("Digite o nome do produto: ");
-        var produto = input.nextLine();
 
         System.out.print("Digite o preço do produto: ");
-        var preco = input.nextDouble();
 
         System.out.print("Digite o quantidade do produto: ");
-        var quantidade = input.nextInt();
-
-        Au76Product product = new Au76Product(produto, preco, quantidade);
 
         System.out.println("Dados do produto: " + product.toString());
 
         System.out.println();
 
         System.out.print("Digite o número de produtos adicionados no estoque: ");
-        quantidade = input.nextInt();
         product.addProducts(quantidade);
 
         System.out.println();
