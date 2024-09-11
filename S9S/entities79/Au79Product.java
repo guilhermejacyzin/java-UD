@@ -45,9 +45,10 @@ public class Au79Product {
         return quantidade;
     }
 
-    public void setQuantidade(int quantidade) {
-        this.quantidade = quantidade;
-    }
+    // BLOQUEAR ALTERAÇÃO Para proteger o meu produto de alterações indevidas - FRAUDE
+//    public void setQuantidade(int quantidade) {
+//        this.quantidade = quantidade;
+//    }
 
 
 
