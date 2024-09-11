@@ -37,6 +37,10 @@ public class Au79Encapsulamento {
 
         Au79Product product = new Au79Product(produto, preco, quantidade);
 
+
+//        product.setProduto("Computer");   TESTE
+//        System.out.println(product.getProduto());     TESTE
+
         System.out.println("Dados do produto: " + product.toString());
 
         System.out.println();

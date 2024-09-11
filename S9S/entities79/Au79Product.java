@@ -2,9 +2,9 @@ package S9S.entities79;
 
 public class Au79Product {
 
-    public String produto;
-    public double preco;
-    public int quantidade;
+    private String produto;
+    private double preco;
+    private int quantidade;
 
     public Au79Product() {
         //construtor padrão
@@ -21,6 +21,35 @@ public class Au79Product {
 //        this.preco = preco;
 //        quantidade = 0; /*opcional*/
 //    }
+
+
+    // Dentro do programa principal - para retornar o nome do produto
+    public String getProduto() {
+        return produto;
+    }
+
+    // Dentro do programa principal - para alterar o nome do produto
+    public void setProduto(String produto) {
+        this.produto = produto;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
+    }
+
+
 
     public double totalValueInStock() {
         return preco * quantidade;
