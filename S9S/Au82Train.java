@@ -29,7 +29,10 @@ public class Au82Train {
 //
 //        System.out.println();
 
-        double depositoInicial = 0;
+        double depositoInicial;
+        Au82Order orderBank = new Au82Order(contaBanco, nomeConta);
+
+        depositoInicial = 0;
         if (deposito.equals("S")) {
             System.out.print("Digite o valor do seu depósito inicial: ");
             depositoInicial = input.nextDouble();

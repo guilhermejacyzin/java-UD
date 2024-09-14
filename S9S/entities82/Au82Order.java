@@ -4,12 +4,12 @@ public class Au82Order {
 //    public void order_id;
 //    private int order_id;
     private int contaBanco;
-    public String nome;
-    private double depositoInicial;
+    public String nomeConta;
+    private double depositoInicial = 0;
 
-    public Au82Order(int contaBanco, String nome, double depositoInicial) {
+    public Au82Order(int contaBanco, String nomeConta) {
         this.contaBanco = contaBanco;
-        this.nome = nome;
-        this.depositoInicial = depositoInicial;
+        this.nomeConta = nomeConta;
+//        this.depositoInicial = depositoInicial;
     }
 }
