@@ -10,12 +10,13 @@ public class Au82Train {
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
 
-//        Au82Order order = new Au82Order();
+        Au82Order order = new Au82Order();
 
         System.out.println("Bem vindo ao GBank :)");
 
         System.out.print("Digite o número da sua conta: ");
-        var contaBanco = input.nextInt();
+        order.contaBanco = input.nextInt();
+        order.setContaBanco(contaBanco);
 
         System.out.print("Digite o seu nome: ");
         var nomeConta = input.nextLine();
