@@ -2,27 +2,28 @@ package S9S.entities82;
 
 public class Au82Order {
 
-    private int contaBanco;
+    private int number;
     public String nomeConta;
-    private double depositoInicial = 0;
+    private double saldoInicial = 0;
 
-    public Au82Order() {
-
-    }
-
-    public Au82Order(int contaBanco, String nomeConta) {
-        this.contaBanco = contaBanco;
+    public Au82Order(int number, String nomeConta) {
+        this.number = number;
         this.nomeConta = nomeConta;
-//        this.depositoInicial = depositoInicial;
     }
 
-    public int getContaBanco() {
-        return contaBanco;
+    public Au82Order(int number, String nomeConta, double depositoInicial) {
+        this.number = number;
+        this.nomeConta = nomeConta;
+        depositar(depositoInicial);
     }
 
-    public void setContaBanco(int contaBanco) {
-        this.contaBanco = contaBanco;
+    public int getNumber() {
+        return number;
     }
+
+//    public void setNumber(int number) {
+//        this.number = number;
+//    }
 
     public String getNomeConta() {
         return nomeConta;
@@ -32,11 +33,18 @@ public class Au82Order {
         this.nomeConta = nomeConta;
     }
 
-    public double getDepositoInicial() {
-        return depositoInicial;
+    public double getSaldoInicial() {
+        return saldoInicial;
     }
 
-    public void setDepositoInicial(double depositoInicial) {
-        this.depositoInicial = depositoInicial;
+//    public void setSaldoInicial(double saldoInicial) {
+//        this.saldoInicial = saldoInicial;
+//    }
+    public void depositar(double amount) {
+        saldoInicial += amount;
+    }
+
+    public void sacar(double amount) {
+        saldoInicial -= amount;
     }
 }
