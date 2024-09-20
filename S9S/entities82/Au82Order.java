@@ -47,4 +47,8 @@ public class Au82Order {
     public void sacar(double amount) {
         saldoInicial -= amount;
     }
+
+    public String toString() {
+        return "Conta: " + number + ", Titular da conta: " + nomeConta + ", Saldo: $ " + String.format("%.2f", saldoInicial);
+    }
 }

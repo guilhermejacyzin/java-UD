@@ -25,8 +25,11 @@ public class Au82TrainC {
             double depositoInicial = input.nextDouble();
             account = new Au82Order(number, nomeConta, depositoInicial);
         }
+        else {
+            account = new Au82Order(number, nomeConta);
+        }
 
-
+        System.out.println();
 
         System.out.println("Dados da conta: ");
         System.out.printf("Conta %d, Proprietário(a): %s, Saldo: $ %.2f");
