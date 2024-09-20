@@ -20,7 +20,7 @@ public class Au82TrainC {
 
         System.out.println("Você fará um depósito inicial? S/N");
         char opcao = input.next().charAt(0);
-        if (opcao == 'S') {
+        if (opcao == 'S' | opcao == 's') {
             System.out.println("Digite o valor inicial");
             double depositoInicial = input.nextDouble();
             account = new Au82Order(number, nomeConta, depositoInicial);
@@ -32,13 +32,27 @@ public class Au82TrainC {
         System.out.println();
 
         System.out.println("Dados da conta: ");
-        System.out.printf("Conta %d, Proprietário(a): %s, Saldo: $ %.2f");
+        System.out.println(account);
 
+        System.out.println();
 
-        System.out.print("Digite o valor a ser sacado: ");
+        System.out.println("Entre com o valor de depósito: ");
+        double depositarValor = input.nextDouble();
+        account.depositar(depositarValor);
 
         System.out.println("Dados da conta atualizados: ");
-        System.out.printf("Conta %d, Proprietário(a): %s, Saldo: $ %.2f");
+        System.out.println(account);
+        System.out.println();
+
+        System.out.println("Entre com o valor de saque: ");
+        double efetuarSaque = input.nextDouble();
+        account.sacar(efetuarSaque);
+
+        System.out.println();
+        System.out.println("Dados da conta atualizados: ");
+        System.out.println(account);
+
+//        System.out.printf("Conta %d, Proprietário(a): %s, Saldo: $ %.2f");
 
 
 
