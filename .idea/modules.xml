@@ -3,14 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java-master/S03/S03.iml" filepath="$PROJECT_DIR$/java-master/S03/S03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-complete-na/S4S/S4S.iml" filepath="$PROJECT_DIR$/java-complete-na/S4S/S4S.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-complete-na/S5S/S5S.iml" filepath="$PROJECT_DIR$/java-complete-na/S5S/S5S.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-complete-na/S6S/S6S.iml" filepath="$PROJECT_DIR$/java-complete-na/S6S/S6S.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-complete-na/S7S/S7S.iml" filepath="$PROJECT_DIR$/java-complete-na/S7S/S7S.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-complete-na/S8S/S8S.iml" filepath="$PROJECT_DIR$/java-complete-na/S8S/S8S.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-complete-na/old-archives/S4S/S4S.iml" filepath="$PROJECT_DIR$/java-complete-na/old-archives/S4S/S4S.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-complete-na/old-archives/S5S/S5S.iml" filepath="$PROJECT_DIR$/java-complete-na/old-archives/S5S/S5S.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-complete-na/old-archives/S6S/S6S.iml" filepath="$PROJECT_DIR$/java-complete-na/old-archives/S6S/S6S.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-complete-na/old-archives/S7S/S7S.iml" filepath="$PROJECT_DIR$/java-complete-na/old-archives/S7S/S7S.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-complete-na/old-archives/S8S/S8S.iml" filepath="$PROJECT_DIR$/java-complete-na/old-archives/S8S/S8S.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-UD.iml" filepath="$PROJECT_DIR$/.idea/java-UD.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-complete-na/java-complete-na.iml" filepath="$PROJECT_DIR$/java-complete-na/java-complete-na.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-master/java-master.iml" filepath="$PROJECT_DIR$/java-master/java-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-complete-na/old-archives/old-archives.iml" filepath="$PROJECT_DIR$/java-complete-na/old-archives/old-archives.iml" />
     </modules>
   </component>
 </project>

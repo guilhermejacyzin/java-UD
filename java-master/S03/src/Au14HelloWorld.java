@@ -1,4 +1,4 @@
-public class Au14helloWorld {
+public class Au14HelloWorld {
     public static void main(String[] args) {
         System.out.println("Olá mundo");
 
