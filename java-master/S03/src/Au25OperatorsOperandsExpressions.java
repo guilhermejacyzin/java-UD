@@ -45,5 +45,9 @@ public class Au25OperatorsOperandsExpressions {
         result = result % 3;    // o resultado do resto de (5 % 3) = 2
         System.out.println(result);
 
+
+        System.out.println();
+
+
     }
 }
