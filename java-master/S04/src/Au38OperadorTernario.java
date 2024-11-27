@@ -43,12 +43,6 @@ public class Au38OperadorTernario {
 
         System.out.println(s);
 
-        System.out.println();
-
-        String myCar4 = "Duster";
-        String ss = (!myCar4.equals("Duster")) ? "Meu carro não é uma Duster" : "Meu carro é uma Duster";
-
-        System.out.println(s);
 
 
     }
