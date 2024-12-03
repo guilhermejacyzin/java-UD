@@ -2,7 +2,7 @@ public class Au49MethodChallengeB {
 
     public static void main(String[] args) {
 
-        int preferenciaCarro = faixaPreco(2);
+        int preferenciaCarro = faixaPreco(0);
         tipoCarro("Corsa", preferenciaCarro);
     }
 
@@ -17,11 +17,15 @@ public class Au49MethodChallengeB {
         }
         else if (preco == 2) {
             return 2000;
-        } else if (preco == 3) {
-            return 3000;
-        } else {
-            return 4000;
         }
+        else if (preco == 3) {
+            return 3000;
+        }
+//        else {
+//            return 4000;
+//        }
+        // OU pode fazeer como abaixo
+        return 4000;
     }
 
 }
